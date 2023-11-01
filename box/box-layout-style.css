@@ -1,0 +1,103 @@
+body{
+    background-image: url(img/gennso.jpg);
+   
+    background-size: 50%;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: #982bc5;
+}
+
+h2{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.electro{
+    width: 25%;
+    background-color: #dbb1ec;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cryo{
+    width: 25%;
+    background-color: #87CEFA;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.hydro{
+    width: 25%;
+    background-color: #1E90FF;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.anemo{
+    width: 25%;
+    background-color: #00FF7F;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pyro{
+    width: 25%;
+    background-color: #f5666c;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+    width: 90%;
+    margin: 0 auto;      
+    text-align: left;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+a{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 30px; 
+    padding: 10px; 
+    background-color: #982bc5;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 2%;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+a:hover{
+    background-color: white;
+    color: #982bc5;
+}
+
+.item{
+    text-align: center;
+    justify-content: center;
+}
