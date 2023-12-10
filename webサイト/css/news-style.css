@@ -1,0 +1,23 @@
+img{
+    width: 40%;
+}
+
+.frame{
+    margin-bottom: 2rem;
+    display: flow-root;
+}
+
+.frame p{
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+}
+
+.float-left{
+    width: 50%;
+    margin: 0 1rem;
+    float: left;
+}
+
+h1{
+    margin: 1rem;
+}

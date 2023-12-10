@@ -1,0 +1,148 @@
+body{
+    min-width: 700px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: #FFF8DC;
+}
+
+header,footer{
+    background-color: 	#DEB887;
+    padding: 0.5rem;
+}
+
+header{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom:solid black ;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    height: 3%;
+    border-top: solid black;
+    text-align: center;
+}
+
+.header1{
+    display: flex;
+    border-bottom: solid black;
+    margin-bottom: 2%;
+}
+
+
+
+header h1{
+    margin: 0; padding: 0;
+    font-size: 15px;
+    text-align: left;
+}
+
+header div ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+header div ul li{
+    margin: 0 0 0 15px;
+    font-size: 14px;
+}
+
+.header1 a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+header div ul{
+    margin: 0 0 0 auto;
+}
+
+header div ul li a:hover{
+    border-bottom:solid black ;
+}
+
+.breadcrumbs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumbs li{
+    position: relative;
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    margin-right: 0.8rem;
+    background: #ddd;
+}
+
+.breadcrumbs li a{
+    display: inline-block;
+    padding: 0 3px 0 7px;
+    height: 28px;
+    line-height: 28px;
+    text-decoration: none;
+    color: black;
+    background-color: #ddd;
+    font-size: 13px;
+}
+
+
+.breadcrumbs li:last-child{
+    display: inline-block;
+    padding: 0 7px 0 7px;
+    height: 28px;
+    line-height: 28px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.breadcrumbs li a::before{
+  border: 14px solid transparent;
+  border-left: 14px solid 	#DEB887;
+  box-sizing: border-box;
+  content: "";
+  height: 28px;
+  width: 14px;
+  margin: -14px 0 0 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  z-index:2;
+}
+
+.breadcrumbs li a::after{
+  border: 8px solid transparent;
+  border-left: 8px solid #ddd;
+  box-sizing: border-box;
+  content: "";
+  height: 16px;
+  width: 8px;
+  margin: -6.5px 0 0 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  z-index:3;
+} 
+
+.breadcrumbs li:hover{
+    background-color: #000;
+}
+
+.breadcrumbs a:hover{
+    color: #FFF;
+    background-color: #000;
+}
+
+.breadcrumbs li a:hover::after{
+    border-left: 8px solid #000;
+  }
+
